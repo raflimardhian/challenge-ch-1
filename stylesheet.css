@@ -1,0 +1,166 @@
+body{
+    font-family:'Helvetica';
+}
+
+h1 {
+    font-weight: bold;
+}
+
+@media only screen and (min-width:1200px){
+    .nav-item {
+        float: right;
+        margin-left: 32px;
+    }
+
+    .navbar-nav {
+        margin-right: 136px ;
+    }
+
+    .logo {
+        margin-left: 136px;
+    }
+
+    .container-fluid {
+        margin: 24px 136pxpx 0px 136px;
+    }
+    
+    .header {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .header-text {
+        margin: 118px 32px 0px 136px;
+    }
+
+    .our-service {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .our-service-text {
+        margin: 136px 207px 0px 100px;
+    }
+    .girl {
+        margin-top: 105px;
+        margin-left: 206px;
+        margin-right: 86px;
+
+    }
+
+    .sewa {
+        margin-top: 24px;
+        margin-bottom: 18px;
+    }
+
+    .fitur-body p {
+        float: left;
+    }
+
+    .why-us {
+        margin-left: 136px;
+        margin-top: 100px;
+    }
+
+    .why-us p {
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+
+    .question-body {
+        margin: 0px 132px 16px 136px;
+    }
+    .frame {
+        display: flex;
+    }
+
+    .card {
+        margin-right: 32px;
+        justify-content: space-between;
+    }
+
+    .testimonial {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 16px;
+    }
+
+    .banner-body {
+        margin-top: 156px;
+    }
+
+    .frame-card {
+        width: 619px;
+    }
+
+    .container {
+        margin-top: 156px;
+        height: 326px;
+    }
+
+    .footer {
+        margin-left: 136px; 
+        margin-top: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    body {
+        width: 100%;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .nav-item {
+        display: none;
+    }
+    .girl {
+        width: 75%%;
+        margin-left: 54px;
+        margin-top: 60px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-text h1{
+        margin-top: 32px;
+    }
+    .our-service {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-service-text {
+        margin-top: 24px;
+        margin-left: 16px ;
+        margin-right: 16px;
+    }
+
+    .why-us {
+        display: grid;
+        justify-content: center;
+    }
+
+    .card {
+        margin-bottom: 16px;
+    }
+    .question {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 60px;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-left: 16px;
+    }
+}
